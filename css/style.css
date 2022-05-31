@@ -138,9 +138,10 @@ body {
 }
 /* Hero */
 .section {
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 .hero {
   text-align: center;
   padding-top: 200px;
@@ -192,6 +193,9 @@ body {
   margin-bottom: 10px;
 }
 /* Section process */
+.section-worck {
+  padding-top: 0px;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -207,7 +211,6 @@ body {
 }
 /*Section team*/
 .section-team {
-  margin-top: 94px;
   background-color: var(--background-button-color);
 }
 .title-team {
