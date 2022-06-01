@@ -157,7 +157,9 @@ body {
   color: var(--button-color);
   margin-bottom: 30px;
   max-width: 696px;
-  margin: 0 auto;
+  letter-spacing: 0.06em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button {
   cursor: pointer;
@@ -239,6 +241,11 @@ body {
 /* Section footer */
 .footer {
   background-color: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer .logo {
+  margin-bottom: 20px;
 }
 .footer .link:hover,
 .footer .link:focus {
@@ -253,9 +260,6 @@ body {
 }
 .address .link[target='blank'] {
   color: var(--button-color);
-}
-.address-list {
-  margin-top: 20px;
 }
 .address-item {
   margin-bottom: 9px;
@@ -272,24 +276,28 @@ body {
   background-color: var(--background-button-color);
   font-family: inherit;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
   border: none;
 }
-.button-color .link:hover .button-color .link:focus {
+.button-item:hover,
+.button-item:focus {
   background-color: var(--accent-color);
+  color: var(--background-button-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 .button-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  column-gap: 8px;
 }
 
 .button-title {
-  margin-left: 8px;
   position: relative;
 }
 
@@ -312,10 +320,11 @@ body {
 }
 .layouts-item {
   background-color: var(--button-color);
-  border: 1px solid #eeeeee;
 }
 .layouts-con {
   padding: 30px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 /*   */
